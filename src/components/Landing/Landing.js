@@ -14,28 +14,7 @@ function Landing() {
   const { theme, drawerOpen } = useContext(ThemeContext);
 
   const useStyles = makeStyles((t) => ({
-    resumeBtn: {
-      color: theme.primary,
-      borderRadius: "30px",
-      textTransform: "inherit",
-      textDecoration: "none",
-      width: "150px",
-      fontSize: "1rem",
-      fontWeight: "500",
-      height: "50px",
-      fontFamily: "var(--primaryFont)",
-      border: `3px solid ${theme.primary}`,
-      transition: "100ms ease-out",
-      "&:hover": {
-        backgroundColor: theme.tertiary,
-        color: theme.secondary,
-        border: `3px solid ${theme.tertiary}`,
-      },
-      [t.breakpoints.down("sm")]: {
-        width: "180px",
-      },
-    },
-    contactBtn: {
+    landBtn: {
       backgroundColor: theme.primary,
       color: theme.secondary,
       borderRadius: "30px",
@@ -123,11 +102,11 @@ function Landing() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button className={classes.resumeBtn}>Download CV</Button>
+                  <Button className={classes.landBtn}>Download CV</Button>
                 </a>
               )}
               <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
-                <Button className={classes.contactBtn}>Contact</Button>
+                <Button className={classes.landBtn}>Contact</Button>
               </NavLink>
             </div>
           </div>

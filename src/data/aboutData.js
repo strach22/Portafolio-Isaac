@@ -1,8 +1,8 @@
 export const aboutData = {
   title: "Who I am",
   description1:
-    "My name's Isaac. I'm a web designer and developer based in Southampton, UK.",
+    "My name's Isaac. I'm a web designer and developer based in Quito, EC.",
   description2:
-    "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
-  image: 2,
+    "Professional with knowledge in web development and great interest in the field of programming, robotics and artificial intelligence. With experience in electrical installations and electronic systems such as fire-fighting systems, video surveillance, intrusion, loudspeakers and access control. With fast learning skills, responsibility and perseverance in meeting goals.",
+  image: 1,
 };
