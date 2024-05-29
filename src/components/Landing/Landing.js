@@ -66,7 +66,7 @@ function Landing() {
                 />
               </a>
             )}
-            {socialsData.youtube && (
+            {/* {socialsData.youtube && (
               <a href={socialsData.youtube} target="_blank" rel="noreferrer">
                 <FaYoutube
                   className="landing--social"
@@ -74,7 +74,7 @@ function Landing() {
                   aria-label="YouTube"
                 />
               </a>
-            )}
+            )} */}
           </div>
         </div>
         <img
